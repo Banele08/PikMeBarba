@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PikMeBarba</title>
+    <link rel="icon" href="images/Logo.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700"> 
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body>
+  
+  <div class="site-wrap">
+    
+
+    <div class="site-navbar bg-white py-2">
+
+      <div class="search-wrap">
+        <div class="container">
+          <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
+          <form action="#" method="post">
+            <input type="text" class="form-control" placeholder="Search keyword and hit enter...">
+          </form>  
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="logo">
+            <div class="site-logo">
+              <img src="images/Logo.png" alt="Header of Image" width="40">
+              <a href="index.html" class="js-logo-clone">PikMeBarba</a>
+            </div>
+          </div>
+          <div class="main-nav d-none d-lg-block">
+            <nav class="site-navigation text-right text-md-center" role="navigation">
+              <ul class="site-menu js-clone-nav d-none d-lg-block">
+                <li class="has-children active">
+                  <a href="index.html">Home</a>
+                  <ul class="dropdown">
+                      <ul class="dropdown">
+                        <li><a href="#">Menu One</a></li>
+                        <li><a href="#">Menu Two</a></li>
+                        <li><a href="#">Menu Three</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                
+                <li><a href="shop.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="shop-single.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="icons">
+            <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
+            <a href="#" class="icons-btn d-inline-block"><span class="icon-heart-o"></span></a>
+            <a href="cart.html" class="icons-btn d-inline-block bag">
+              <span class="icon-car"></span>
+              <span class="number">2</span>
+            </a>
+            <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span class="icon-menu"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bg-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-0"><a href="index.html">Home</a> <span class="mx-2 mb-0">/</span> <a href="cart.html">Cart</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Checkout</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-12">
+            <div class="border p-4 rounded" role="alert">
+              Returning customer? <a href="#">Click here</a> to login
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-5 mb-md-0">
+            <h2 class="h3 mb-3 text-black">Appointment Details</h2>
+            <div class="p-3 p-lg-5 border">
+              <div class="form-group">
+                <label for="c_country" class="text-black">Country <span class="text-danger">*</span></label>
+                <select id="c_country" class="form-control">
+                  <option value="1">Select a Province</option>    
+                  <option value="2">Gauteng</option>    
+                  <option value="3">Free State</option>    
+                  <option value="4">Northen Cape</option>    
+                  <option value="5">Western Cape</option>    
+                  <option value="6">North West</option>    
+                  <option value="7">Limpopo</option>    
+                  <option value="8">Mpumalanga</option>    
+                  <option value="9">Kwa-Zulu Natal</option>    
+                  <option value="9">Eastern Cape</option>  
+                </select>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-6">
+                  <label for="c_fname" class="text-black">First Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="c_fname" name="c_fname">
+                </div>
+                <div class="col-md-6">
+                  <label for="c_lname" class="text-black">Last Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="c_lname" name="c_lname">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <label for="c_companyname" class="text-black">Name of Contact person</label>
+                  <input type="text" class="form-control" id="c_companyname" name="c_companyname">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <label for="c_address" class="text-black">Address <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="c_address" name="c_address" placeholder="Street address">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Apartment, suite, unit etc. (optional)">
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-6">
+                  <label for="c_state_country" class="text-black">Insert you date <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="c_state_country" name="c_state_country">
+                  <input type="text" id="datepicker" placeholder="DD-MM-YYYY" readonly>
+
+                </div>
+                <div class="col-md-6">
+                  <label for="c_postal_zip" class="text-black">Insert your time <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="c_postal_zip" name="c_postal_zip">
+                </div>
+              </div>
+
+              <div class="form-group row mb-5">
+                <div class="col-md-6">
+                  <label for="c_email_address" class="text-black">Email Address <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="c_email_address" name="c_email_address">
+                </div>
+                <div class="col-md-6">
+                  <label for="c_phone" class="text-black">Phone <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="c_phone" name="c_phone" placeholder="Phone Number">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="c_create_account" class="text-black" data-toggle="collapse" href="#create_an_account" role="button" aria-expanded="false" aria-controls="create_an_account"><input type="checkbox" value="1" id="c_create_account"> Create an account?</label>
+                <div class="collapse" id="create_an_account">
+                  <div class="py-2">
+                    <p class="mb-3">Create an account by entering the information below. If you are a returning customer please login at the top of the page.</p>
+                    <div class="form-group">
+                      <label for="c_account_password" class="text-black">Account Password</label>
+                      <input type="email" class="form-control" id="c_account_password" name="c_account_password" placeholder="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="form-group">
+                <label for="c_ship_different_address" class="text-black" data-toggle="collapse" href="#ship_different_address" role="button" aria-expanded="false" aria-controls="ship_different_address"><input type="checkbox" value="1" id="c_ship_different_address"> Add second Address</label>
+                <div class="collapse" id="ship_different_address">
+                  <div class="py-2">
+
+                    <div class="form-group">
+                      <label for="c_diff_country" class="text-black">Province <span class="text-danger">*</span></label>
+                      <select id="c_diff_country" class="form-control">
+                        <option value="1">Select a Province</option>    
+                        <option value="2">Gauteng</option>    
+                        <option value="2">Free State</option> 
+                        <option value="3">Western Cape</option>    
+                        <option value="4">Northen Cape</option>    
+                        <option value="5">Mpumalanga</option>    
+                        <option value="6">Limpopo</option>    
+                        <option value="7">Kwa-Zulu Natal</option>    
+                        <option value="8">Eastern Cape</option>    
+                        <option value="9">North West</option>    
+                      </select>
+                    </div>
+
+
+                    <div class="form-group row">
+                      <div class="col-md-6">
+                        <label for="c_diff_fname" class="text-black">First Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="c_diff_fname" name="c_diff_fname">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="c_diff_lname" class="text-black">Last Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="c_diff_lname" name="c_diff_lname">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <div class="col-md-12">
+                        <label for="c_diff_companyname" class="text-black">Name of Contact person </label>
+                        <input type="text" class="form-control" id="c_diff_companyname" name="c_diff_companyname">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <div class="col-md-12">
+                        <label for="c_diff_address" class="text-black">Address <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="c_diff_address" name="c_diff_address" placeholder="Street address">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Apartment, suite, unit etc. (optional)">
+                    </div>
+
+                    <div class="form-group row">
+                      <div class="col-md-6">
+                        <label for="c_diff_state_country" class="text-black">Insert your Date <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="c_diff_state_country" name="c_diff_state_country">
+                        <input type="text" id="datepicker" placeholder="DD-MM-YYYY" readonly>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="c_diff_postal_zip" class="text-black">Insert your time <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="c_diff_postal_zip" name="c_diff_postal_zip">
+                      </div>
+                    </div>
+
+                    <div class="form-group row mb-5">
+                      <div class="col-md-6">
+                        <label for="c_diff_email_address" class="text-black">Email Address <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="c_diff_email_address" name="c_diff_email_address">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="c_diff_phone" class="text-black">Phone <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="c_diff_phone" name="c_diff_phone" placeholder="Phone Number">
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="c_order_notes" class="text-black">Order Notes</label>
+                <textarea name="c_order_notes" id="c_order_notes" cols="30" rows="5" class="form-control" placeholder="Write your notes here..."></textarea>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-6">
+
+            <div class="row mb-5">
+              <div class="col-md-12">
+                <h2 class="h3 mb-3 text-black">Voucher</h2>
+                <div class="p-3 p-lg-5 border">
+                  
+                  <label for="c_code" class="text-black mb-3">Enter your Voucher Nmuber if you have one</label>
+                  <div class="input-group w-75">
+                    <input type="text" class="form-control" id="c_code" placeholder="Coupon Code" aria-label="Coupon Code" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary btn-sm px-4" type="button" id="button-addon2">Apply</button>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            
+            <div class="row mb-5">
+              <div class="col-md-12">
+                <h2 class="h3 mb-3 text-black">Your Order</h2>
+                <div class="p-3 p-lg-5 border">
+                  <table class="table site-block-order-table mb-5">
+                    <thead>
+                      <th>Product/Service</th>
+                      <th>Total</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>20 Inch Copper Weave<strong class="mx-2">x</strong> 1</td>
+                        <td>R1 799.99</td>
+                      </tr>
+                      <tr>
+                        <td>20 Inch Weave Installation<strong class="mx-2">x</strong>   1</td>
+                        <td>R1 900.00</td>
+                      </tr>
+                      <tr>
+                        <td>Nail Installation<strong class="mx-2">x</strong>   1</td>
+                        <td>R885.00</td>
+                      </tr>
+                      <tr>
+                        <td class="text-black font-weight-bold"><strong>Cart Subtotal</strong></td>
+                        <td class="text-black">R4 584.99</td>
+                      </tr>
+                      <tr>
+                        <td class="text-black font-weight-bold"><strong>Order Total</strong></td>
+                        <td class="text-black font-weight-bold"><strong>R4 584.99</strong></td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <div class="border p-3 mb-3">
+                    <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapsebank" role="button" aria-expanded="false" aria-controls="collapsebank">Direct Bank Transfer</a></h3>
+
+                    <div class="collapse" id="collapsebank">
+                      <div class="py-2">
+                        <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="border p-3 mb-3">
+                    <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapsecheque" role="button" aria-expanded="false" aria-controls="collapsecheque">Cheque Payment</a></h3>
+
+                    <div class="collapse" id="collapsecheque">
+                      <div class="py-2">
+                        <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="border p-3 mb-5">
+                    <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapsepaypal" role="button" aria-expanded="false" aria-controls="collapsepaypal">Paypal</a></h3>
+
+                    <div class="collapse" id="collapsepaypal">
+                      <div class="py-2">
+                        <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <button class="btn btn-primary btn-lg btn-block" onclick="window.location='thankyou.html'">Place Appointment!</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- </form> -->
+      </div>
+    </div>
+
+    <footer class="site-footer custom-border-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+            <h3 class="footer-heading mb-4">Events Sales Promotion</h3>
+            <a href="#" class="block-6">
+              <img src="images/sales-tag.jpg" alt="Image for sales" class="img-fluid rounded mb-4">
+              <h3 class="font-weight-light  mb-0">Find a sales promotion for your special event.</h3>
+              <p>Promo from  July 15 &mdash; 25, 2024</p>
+            </a>
+          </div>
+          <div class="col-lg-5 ml-auto mb-5 mb-lg-0">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="footer-heading mb-4">Quick Links</h3>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Shopping cart</a></li>
+                  <li><a href="#">Explore</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><a href="#">Hair Products</a></li>
+                  <li><a href="#">Manicure and Pedicure</a></li>
+                  <li><a href="#">Male Grooming</a></li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-3">
+            <div class="block-5 mb-5">
+              <h3 class="footer-heading mb-4">Contact Info</h3>
+              <ul class="list-unstyled">
+                <li class="address">Old Pretoria Rd, Halway House Estate, Midrand, 1685>
+                <li class="phone"><a href="tel://23923929210">082 611 8793</a></li>
+                <li class="email">pikmebarba@info.com</li>
+              </ul>
+            </div>
+
+            <div class="block-7">
+              <form action="#" method="post">
+                <label for="email_subscribe" class="footer-heading">Subscribe</label>
+                <div class="form-group">
+                  <input type="text" class="form-control py-4" id="email_subscribe" placeholder="Email">
+                  <input type="submit" class="btn btn-sm btn-primary" value="Send">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="app-download">
+          <h3>Download Our App</h3>
+          <div class="app-buttons">
+              <a href="https://play.google.com/store/apps/details?id=yourAppPackage" target="_blank">
+                  <img src="data:image/jpeg;base64,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" alt="Google Play Store" width="120">
+              </a>
+              <a href="https://apps.apple.com/us/app/your-app/id123456789" target="_blank">
+                  <img src="data:image/png;base64,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" alt="iOS App Store" width="120">
+              </a>
+          </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
